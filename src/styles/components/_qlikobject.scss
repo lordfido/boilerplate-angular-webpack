@@ -1,0 +1,14 @@
+.Qlik-object {
+  display: inline-block;
+  height: $qlik-object-height;
+  position: relative;
+  width: 100%;
+
+  // &,
+  // & .qv-object-content-container,
+  // & .qv-object-content,
+  // & .qv-viz {
+  //   height: $qlik-object-height;
+  //   max-width: 100%;
+  // }
+}

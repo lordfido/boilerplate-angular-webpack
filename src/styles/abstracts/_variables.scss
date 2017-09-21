@@ -1,0 +1,32 @@
+// Misc
+$spacing-block: 4px;
+$animation-duration: 0.3s;
+
+// Qlik object
+$qlik-object-height: 300px;
+
+$footer-height: $spacing-block * 15;
+
+$zIndexApp: (
+  // Notifications
+  'notification': 500,
+  // Modals
+  'modal': 400,
+  // Sidebars
+  'sidebar': 300,
+  // Header
+  'header': 200,
+  // Footer
+  'footer': 100,
+  // Others
+  'content': 0,
+  'background': -1,
+);
+
+$breakpoints: (
+  'mobile': 480px,
+  'tablet': 768px,
+  'landscape-tablet': 1024px,
+  'desktop': 1280px,
+  'hd': 1920px,
+);

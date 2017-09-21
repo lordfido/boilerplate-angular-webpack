@@ -1,0 +1,18 @@
+.Footer {
+  background-color: #f5f5f5;
+  bottom: 0;
+  display: block;
+  height: $footer-height;
+  position: fixed;
+  width: 100%;
+  z-index: order('footer');
+}
+
+.Footer > .container {
+  padding: 0 $spacing-block * 4;
+}
+
+.Footer > .container > .text-muted {
+  line-height: $spacing-block * 7;
+  margin: $spacing-block * 4 0;
+}

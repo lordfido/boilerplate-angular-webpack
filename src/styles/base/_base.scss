@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+ui-view * { //stylelint-disable-line selector-type-no-unknown
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.App {
+  margin-bottom: $footer-height;
+
+  & > .container {
+    padding: $spacing-block * 4;
+  }
+}
+
+ui-view { //stylelint-disable-line selector-type-no-unknown
+  display: block;
+}
