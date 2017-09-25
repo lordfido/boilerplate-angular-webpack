@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 // eslint-disable-next-line import/newline-after-import
-// import debug from 'debug';
+import debug from 'debug';
 // const log = debug('app:index');
 // const logError = debug('error:app:index');
 
